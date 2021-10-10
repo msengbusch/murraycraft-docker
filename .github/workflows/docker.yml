@@ -9,7 +9,7 @@ jobs:
       - name: Prepare
         id: prep
         run: |
-          DOCKER_IMAGE=ghcr.io/msengbusch/MurrayCraft
+          DOCKER_IMAGE=ghcr.io/msengbusch/murraycraft
           VERSION=edge
           if [[ $GITHUB_REF == refs/tags/* ]]; then
             VERSION=${GITHUB_REF#refs/tags/v}
