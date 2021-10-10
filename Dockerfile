@@ -1,7 +1,7 @@
-FROM itzg/bungeecord
+FROM itzg/minecraft-server
 
-ENV TYPE=VELOCITY
-ENV MEMORY=512m
+ENV TYPE=AIRPLANE
+ENV MEMORY=4G
 ENV ENABLE_RCON=FALSE
 
-COPY plugins/*.jar /plugins/
+COPY / /
