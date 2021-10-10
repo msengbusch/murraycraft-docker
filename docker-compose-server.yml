@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  server:
+    image: ghcr.io/msengbusch/murraycraft-server:edge
+    environment:
+      EULA: "TRUE"
+    ports:
+      - 25566:25566
+    stdin_open: true
+    tty: true
